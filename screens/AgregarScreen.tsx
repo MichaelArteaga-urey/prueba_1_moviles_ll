@@ -60,40 +60,40 @@ export default function AgregarScreen() {
  return (
     <View style={styles.container}>
 
-      <Text style={styles.titulo}>
-        Registrar Producto
-      </Text>
+        <Text style={styles.titulo}>
+        Registrar Figura
+        </Text>
 
-      <TextInput
+        <TextInput
         style={styles.input}
-        placeholder="Nombre"
+        placeholder="Nombre de la figura"
         value={nombre}
         onChangeText={setNombre}
-      />
+        />
 
-      <TextInput
+        <TextInput
         style={styles.input}
         placeholder="Marca"
         value={marca}
         onChangeText={setMarca}
-      />
+        />
 
-      <TextInput
+        <TextInput
         style={styles.input}
         placeholder="Categoría"
         value={categoria}
         onChangeText={setCategoria}
-      />
+        />
 
-      <TextInput
+        <TextInput
         style={styles.input}
         placeholder="Precio"
         value={precio}
         onChangeText={setPrecio}
         keyboardType="decimal-pad"
-      />
+        />
 
-      <TextInput
+        <TextInput
         style={[styles.input, styles.descripcion]}
         placeholder="Descripción"
         value={descripcion}
